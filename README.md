@@ -41,15 +41,15 @@ AI is reshaping software testing. This list collects tools, platforms, and resou
 Tools that generate test cases from code, requirements, or user behavior using AI.
 
 - [Qodo-Cover](https://github.com/qodo-ai/qodo-cover) 🆓 - AI-powered tool for automated test generation and code coverage enhancement.
-- [EvoMaster](https://github.com/EMResearch/EvoMaster) 🆓 - First open source AI tool that automatically generates test cases via evolutionary algorithms for REST, GraphQL, and RPC APIs.
+- [EvoMaster](https://github.com/WebFuzzing/EvoMaster) 🆓 - First open source AI tool that automatically generates test cases via evolutionary algorithms for REST, GraphQL, and RPC APIs.
 - [EvoSuite](https://github.com/EvoSuite/evosuite) 🆓 - Generates JUnit tests using evolutionary and genetic search-based algorithms for Java.
 - [Pynguin](https://github.com/se2p/pynguin) 🆓 - Automated unit test generation for Python via evolutionary algorithms, from Saarland University.
 - [Symflower](https://symflower.com/) 💰 - Commercial tool that combines symbolic execution, static analysis, and LLMs to generate unit tests for Java, Go, and Kotlin. Free CLI available with limitations.
 - [CodiumAI / Qodo](https://www.qodo.ai/) 💰 - AI assistant generating meaningful tests from code context.
 - [Diffblue Cover](https://www.diffblue.com/) 💰 - Autonomous Java unit test writer using reinforcement learning.
 - [GitHub Copilot](https://github.com/features/copilot) 💰 - AI pair programmer that generates test code in Playwright, Cypress, Selenium across editors.
-- [Cursor](https://www.cursor.com/) 💰 - AI-first code editor with strong test generation capabilities for major frameworks.
-- [Claude Code](https://www.anthropic.com/claude-code) 💰 - Anthropic's terminal-based agentic coding assistant, useful for test suite generation and refactoring.
+- [Cursor](https://cursor.com/) 💰 - AI-first code editor with strong test generation capabilities for major frameworks.
+- [Claude Code](https://claude.com/product/claude-code) 💰 - Anthropic's terminal-based agentic coding assistant, useful for test suite generation and refactoring.
 
 ## MCP-Based Testing
 
@@ -62,7 +62,6 @@ Tools and servers that use the Model Context Protocol to give AI agents browser 
 - [BrowserTools MCP](https://github.com/AgentDeskAI/browser-tools-mcp) 🆓 - Browser monitoring and console log access for AI agents via Chrome extension.
 - [Browser MCP](https://github.com/browsermcp/mcp) 🆓 - Popular MCP server that automates the user's own local browser, preserving logged-in sessions and avoiding bot detection. Note: limited maintenance activity since mid-2025 but widely used (6.5k+ stars).
 - [Podium MCP](https://github.com/hoainho/podium-mcp) 🆓 - MCP server purpose-built for mobile app testing on Android/iOS simulators using Maestro, with deep Redux state inspection and CI pipeline integration.
-- [Puppeteer MCP](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer) 🆓 - Reference MCP server for Puppeteer-based browser automation from the official MCP servers repo.
 - [prufa-mcp](https://github.com/prufa-dev/prufa-mcp) 🆓💰 - Open-source (Apache-2.0) MCP server connected to Prufa's hosted audit backend; an AI agent runs a QA audit of a web app (analytics, broken flows, security headers, accessibility) and gets back machine-verified findings. First audit is free; further audits and features require a paid plan.
 - [qmax-mcp](https://github.com/Quality-Max/qmax-mcp) 🆓 - MCP server and CLI that gives coding agents independent QA evidence before declaring a web change done: scans a URL for console errors, broken links, accessibility, Core Web Vitals, SEO, and security headers, then generates and runs a deterministic Playwright repro behind a human-approval gate.
 
@@ -77,7 +76,7 @@ Tools that automatically repair broken test locators and adapt to UI changes.
 - [Functionize](https://www.functionize.com/) 💰 - AI-powered tests that adapt without selectors.
 - [TestSigma](https://testsigma.com/) 💰 - AI-driven low-code platform with self-healing across web, mobile, and API.
 - [Tricentis Tosca](https://www.tricentis.com/products/automate-continuous-testing-tosca) 💰 - Enterprise platform with Vision AI for resilient automation.
-- [Perfecto](https://www.perfecto.io/) 💰 - Cloud testing platform with self-healing locators.
+- [Perfecto](https://www.perforce.com/products/perfecto) 💰 - Cloud testing platform with self-healing locators.
 
 ## AI-Powered E2E Platforms
 
@@ -89,13 +88,13 @@ End-to-end testing platforms with AI at the core.
 - [Meticulous](https://www.meticulous.ai/) 💰 - Records real user sessions and generates regression tests automatically.
 - [Momentic](https://momentic.ai/) 💰 - AI-native end-to-end testing platform that writes, runs, and maintains web and mobile tests automatically using natural language.
 - [Autify](https://autify.com/) 💰 - No-code end-to-end testing platform with AI-driven maintenance.
-- [Reflect](https://reflect.run/) 💰 - No-code regression testing with AI-assisted authoring.
+- [Reflect](https://smartbear.com/product/reflect/) 💰 - No-code regression testing with AI-assisted authoring.
 - [QA Wolf](https://www.qawolf.com/) 💰 - AI-powered QA-as-a-service generating Playwright tests at scale.
 - [Bug0](https://bug0.com/) 💰 - Agentic testing platform built on the Planner, Generator, Healer pattern with MCP integration.
 - [Checksum](https://checksum.ai/) 💰 - Generates Playwright and Cypress tests from real user sessions.
 - [Rainforest QA](https://www.rainforestqa.com/) 💰 - No-code testing platform with AI-driven test generation.
 - [BrowserStack Low Code Automation](https://www.browserstack.com/low-code-automation) 💰 - AI-powered low-code platform with self-healing agents, NL test authoring, and real device cloud execution.
-- [LambdaTest KaneAI](https://www.lambdatest.com/kane-ai) 💰 - GenAI-native test agent for authoring, executing, and maintaining tests using natural language.
+- [KaneAI](https://www.testmuai.com/kane-ai/) 💰 - GenAI-native test agent for authoring, executing, and maintaining tests using natural language.
 - [Virtuoso QA](https://www.virtuosoqa.com/) 💰 - NLP-based codeless E2E platform with self-healing and visual testing.
 - [Katalon Studio](https://katalon.com/) 🆓💰 - Test automation platform with AI features including TrueTest and Visual Testing.
 - [Testorim](https://testorim.com/) 💰 - Describe a web test in plain English and an AI agent plans the steps, runs them in a real Chromium browser, and reports what happened with video, a Playwright trace, and an accessibility scan.
@@ -109,14 +108,12 @@ AI-powered tools specifically for mobile app testing.
 - [Sofy](https://sofy.ai/) 💰 - No-code AI mobile testing platform.
 - [Kobiton](https://kobiton.com/) 💰 - Mobile device cloud with AI-driven scriptless automation.
 - [HeadSpin](https://www.headspin.io/) 💰 - Mobile testing platform with AI-driven performance insights.
-- [Waldo](https://www.waldo.com/) 💰 - Scriptless mobile testing platform with visual regression and AI-driven flow recording.
 - [testRigor](https://testrigor.com/) 💰 - Plain English test authoring across web, mobile, and API with AI-driven element identification.
 
 ## Visual AI Testing
 
 Visual regression and UI verification powered by AI.
 
-- [Lost Pixel](https://github.com/lost-pixel/lost-pixel) 🆓💰 - Open source visual regression testing.
 - [Loki](https://github.com/oblador/loki) 🆓 - Visual regression testing for Storybook.
 - [Argos](https://github.com/argos-ci/argos) 🆓💰 - Open source visual testing for engineering teams.
 - [BackstopJS](https://github.com/garris/BackstopJS) 🆓 - Visual regression testing for responsive web UIs.
@@ -131,12 +128,11 @@ Visual regression and UI verification powered by AI.
 
 Write tests using plain English (or other natural languages).
 
-- [Shortest](https://github.com/anti-work/shortest) 🆓 - QA via natural language AI tests, built on Playwright.
+- [Shortest](https://github.com/antiwork/shortest) 🆓 - QA via natural language AI tests, built on Playwright.
 - [Magnitude](https://github.com/magnitudedev/magnitude) 🆓 - AI-native, vision-first testing framework that lets you write E2E tests in plain language.
 - [Auto Playwright](https://github.com/lucgagan/auto-playwright) 🆓 - Run Playwright tests with AI through plain text prompts.
 - [Passmark](https://github.com/bug0inc/passmark) 🆓 - Open-source AI regression testing framework on Playwright with intelligent caching, auto-healing, and multi-model verification.
 - [Midscene.js](https://github.com/web-infra-dev/midscene) 🆓 - AI-driven UI automation with natural language commands.
-- [ZeroStep](https://zerostep.com/) 💰 - Plain English test steps that compile to Playwright actions.
 - [Tusk](https://www.usetusk.ai/) 💰 - AI agent that auto-generates and runs tests for pull requests.
 
 ## LLM-as-Judge Evaluation
@@ -145,7 +141,7 @@ Use LLMs to evaluate test outputs, assertions, and quality.
 
 - [Promptfoo](https://github.com/promptfoo/promptfoo) 🆓💰 - Test framework with LLM-as-judge for prompts, models, and RAG pipelines.
 - [DeepEval](https://github.com/confident-ai/deepeval) 🆓💰 - Pytest-like LLM evaluation framework with built-in judge metrics.
-- [Ragas](https://github.com/explodinggradients/ragas) 🆓 - Evaluation framework for RAG pipelines using LLM judges.
+- [Ragas](https://github.com/vibrantlabsai/ragas) 🆓 - Evaluation framework for RAG pipelines using LLM judges.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) 🆓 - LLM evaluation framework from the UK AI Safety Institute.
 - [TruLens](https://github.com/truera/trulens) 🆓 - Evaluation framework for LLM apps with feedback functions and tracing.
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) 🆓 - Open-source LLM observability and evaluation.
@@ -169,10 +165,10 @@ AI for failure analysis, flaky test detection, and reporting.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) 🆓 - Local-first TUI and CLI for evaluating AI coding agent sessions with cost, token, latency, and failure regression gates.
 - [ReportPortal](https://github.com/reportportal/reportportal) 🆓💰 - Open source results management with ML-based failure clustering.
 - [Allure TestOps](https://qameta.io/) 💰 - Test management with AI-driven analytics and flaky detection.
-- [Sealights](https://www.sealights.io/) 💰 - Quality intelligence platform using ML for test gap analysis.
+- [Sealights](https://www.tricentis.com/products/quality-intelligence-sealights) 💰 - Quality intelligence platform using ML for test gap analysis.
 - [Trunk Flaky Tests](https://trunk.io/flaky-tests) 💰 - ML-based flaky test detection and quarantine.
 - [Datadog CI Visibility](https://www.datadoghq.com/product/ci-cd-monitoring/) 💰 - Test analytics with flaky test detection across CI pipelines.
-- [Launchable](https://www.launchableinc.com/) 💰 - ML-driven predictive test selection and flaky test detection.
+- [CloudBees Smart Tests](https://www.cloudbees.com/capabilities/cloudbees-smart-tests) 💰 - Formerly Launchable. ML-driven predictive test selection and flaky test detection.
 - [BuildPulse](https://buildpulse.io/) 💰 - Flaky test detection and analytics platform.
 - [flaky-test-detector](https://github.com/sametcelikbicak/flaky-test-detector) 🆓 - AI agent skill that detects, analyzes, and eliminates flaky tests across any test runner. Compatible with opencode, Claude Code, Cursor, Windsurf, and GitHub Copilot.
 
@@ -190,11 +186,9 @@ Tools that use AI to generate realistic test data, fixtures, and edge cases.
 
 - [Faker.js](https://github.com/faker-js/faker) 🆓 - Standard fake data library, often paired with AI for context-aware data.
 - [Datafaker](https://github.com/datafaker-net/datafaker) 🆓 - Java/Kotlin port of Faker for realistic fake data generation in JVM-based test suites.
-- [Snowfakery](https://github.com/SFDO-Tooling/Snowfakery) 🆓 - Relational synthetic data generator from Salesforce, useful for complex schema-aware test fixtures.
 - [Mockaroo](https://www.mockaroo.com/) 🆓💰 - Realistic test data generation with AI-suggested schemas.
 - [Synthesized](https://www.synthesized.io/) 💰 - AI-driven synthetic data platform for testing.
 - [Tonic.ai](https://www.tonic.ai/) 💰 - Generate realistic safe test data from production using AI.
-- [Gretel](https://gretel.ai/) 💰 - Synthetic data platform with AI-generated test datasets.
 
 ## Mock and Service Virtualization
 
@@ -203,7 +197,7 @@ Tools for mocking external services, LLM APIs, and dependencies in AI testing pi
 - [Mountebank](https://github.com/mountebank-testing/mountebank) 🆓 - Mature open source service virtualization for HTTP, HTTPS, TCP, and SMTP protocols. Supports stubbing, mock verification, and record-playback.
 - [WireMock](https://github.com/wiremock/wiremock) 🆓💰 - Industry standard HTTP mocking with 7.1k stars and a native MCP server in the cloud version for AI coding assistants.
 - [Mockoon](https://github.com/mockoon/mockoon) 🆓 - GUI-based open source API mocking tool, easy to set up.
-- [Pact](https://github.com/pact-foundation/pact-specification) 🆓 - Contract testing framework for microservices and API consumers.
+- [Pact](https://docs.pact.io/) 🆓 - Contract testing framework for microservices and API consumers.
 - [MSW (Mock Service Worker)](https://github.com/mswjs/msw) 🆓 - API mocking library for browser and Node.js, ideal for frontend AI testing.
 - [Hoverfly](https://github.com/SpectoLabs/hoverfly) 🆓 - Lightweight service virtualization with proxy-based recording and replay.
 
@@ -214,7 +208,7 @@ AI-enhanced performance, load, and chaos testing.
 - [k6](https://github.com/grafana/k6) 🆓💰 - Open-source load testing tool, increasingly paired with AI for scenario generation.
 - [WebPageTest](https://www.webpagetest.org/) 🆓💰 - Performance testing with AI-suggested optimizations.
 - [LoadView](https://www.loadview-testing.com/) 💰 - Cloud-based load testing with AI-powered insights.
-- [Akamas](https://www.akamas.io/) 💰 - AI-driven performance optimization and tuning.
+- [Akamas](https://akamas.io/) 💰 - AI-driven performance optimization and tuning.
 
 ## AI for Accessibility Testing
 
@@ -240,15 +234,12 @@ Tools to test LLM applications themselves (security, robustness, hallucination).
 - [Garak](https://github.com/NVIDIA/garak) 🆓 - LLM vulnerability scanner from NVIDIA.
 - [DeepTeam](https://github.com/confident-ai/deepteam) 🆓 - LLM red teaming for prompt injection, jailbreaks, and data leaks.
 - [llm-security-scanner](https://github.com/tugkanboz/llm-security-scanner) 🆓 - Red-team toolkit with OWASP LLM Top 10 alignment and Turkish payload library.
-- [Giskard](https://github.com/Giskard-AI/giskard) 🆓💰 - Testing framework for LLMs and ML models.
+- [Giskard](https://github.com/Giskard-AI/giskard-oss) 🆓💰 - Testing framework for LLMs and ML models.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) 🆓💰 - Python framework for validating and structuring LLM outputs using composable validators covering toxicity, PII leakage, and hallucination detection.
-- [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) 🆓 - Open-source toolkit from NVIDIA for adding programmable guardrails to LLM-based conversational systems, preventing jailbreaks, topic drift, and unsafe outputs.
-- [PyRIT](https://github.com/Azure/PyRIT) 🆓 - Microsoft's Python Risk Identification Tool for generative AI.
-- [LLM Guard](https://github.com/protectai/llm-guard) 🆓 - Open source security toolkit from Protect AI with scanners for prompt injection, toxicity, secrets, and data leakage in LLM inputs and outputs.
-- [LLMFuzzer](https://github.com/mnns/LLMFuzzer) 🆓 - Early open-source fuzzing framework for testing LLMs via their API integrations. No longer actively maintained (last commit early 2024) but still referenced in LLM security lists.
+- [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) 🆓 - Open-source toolkit from NVIDIA for adding programmable guardrails to LLM-based conversational systems, preventing jailbreaks, topic drift, and unsafe outputs.
+- [PyRIT](https://github.com/microsoft/PyRIT) 🆓 - Microsoft's Python Risk Identification Tool for generative AI.
 - [Lakera Guard](https://www.lakera.ai/) 💰 - Real-time prompt injection and jailbreak detection.
-- [Prompt Security](https://www.prompt.security/) 💰 - Runtime prompt injection and data leak protection platform.
-- [WhyLabs](https://whylabs.ai/) 💰 - ML observability and LLM monitoring.
+- [Prompt Security](https://prompt.security/) 💰 - Runtime prompt injection and data leak protection platform.
 - [Confident AI](https://www.confident-ai.com/) 💰 - LLM testing platform built around DeepEval.
 
 ## Browser Automation for AI Agents
@@ -275,8 +266,6 @@ Essential reading on AI in software testing.
 - [20 Open-Source Projects Redefining AI + Playwright Testing](https://bug0.com/blog/20-underdog-open-source-projects-pushing-limits-ai-playwright) - Roundup of emerging AI Playwright projects.
 - [Best 12 Generative AI Testing Tools 2026](https://hashnode.com/blog/best-generative-ai-testing-tools-2026) - Ranked review of top GenAI testing platforms.
 - [Give your AI eyes: Introducing Chrome DevTools MCP](https://addyosmani.com/blog/devtools-mcp/) - Deep dive on Chrome DevTools MCP by Addy Osmani.
-- [State of AI in Software Testing 2026](https://www.browserstack.com/resources/state-of-ai-in-software-testing) - BrowserStack's industry report on AI adoption trends in QA.
-- [The Test Pyramid in the AI Era](https://martinfowler.com/articles/practical-test-pyramid.html) - Classic reference, still relevant.
 
 ## Courses and Tutorials
 
@@ -294,10 +283,9 @@ Learning resources for AI-powered testing.
 
 ## Benchmarks and Datasets
 
-- [BenchClaw](https://github.com/Agnuxo1/BenchClaw) 🆓 - Multi-dimension AI benchmark with 17-judge evaluation tribunal for scientific paper generation. Evaluates IMRaD structure, citation quality, methodological rigor, and reproducibility across 10 dimensions with uncertainty quantification and P2P verification.
 - [StructEval](https://github.com/TIGER-AI-Lab/StructEval) 🆓 - Benchmark for structured-output generation and cross-format conversion across text and renderable formats, with syntax, structural, and visual-fidelity checks.
 - [HELM](https://github.com/stanford-crfm/helm) 🆓 - Stanford CRFM's open-source Python framework for holistic, reproducible, and transparent evaluation of LLMs and multimodal models across dozens of scenarios covering accuracy, robustness, efficiency, bias, and safety.
-- [SWE-bench](https://github.com/princeton-nlp/SWE-bench) - Benchmark for evaluating LLMs on real software engineering tasks, including test fixes.
+- [SWE-bench](https://github.com/SWE-bench/SWE-bench) - Benchmark for evaluating LLMs on real software engineering tasks, including test fixes.
 - [HumanEval](https://github.com/openai/human-eval) - Evaluating large language models trained on code.
 - [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) 🆓 - Contamination-free holistic benchmark for evaluating LLM coding abilities that continuously collects problems from LeetCode, AtCoder, and CodeForces, covering code generation, execution, and test output prediction.
 - [WebArena](https://github.com/web-arena-x/webarena) - Self-hostable web environment for building and evaluating autonomous agents on realistic, multi-site tasks.
