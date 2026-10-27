@@ -206,6 +206,7 @@ Tools for mocking external services, LLM APIs, and dependencies in AI testing pi
 - [Pact](https://docs.pact.io/) 🆓 - Contract testing framework for microservices and API consumers.
 - [MSW (Mock Service Worker)](https://github.com/mswjs/msw) 🆓 - API mocking library for browser and Node.js, ideal for frontend AI testing.
 - [Hoverfly](https://github.com/SpectoLabs/hoverfly) 🆓 - Lightweight service virtualization with proxy-based recording and replay.
+- [Twinbay](https://twinbay.ai) 🆓💰 - Stateful copies of third-party APIs (Shopify, Slack, Zendesk and ten more) for testing AI agents. A model compiles outcomes you write in plain language into checks, and Twinbay grades the agent's captured API calls against them.
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) 🆓 - Proxy-based record and replay aimed at coding agents: captures the model API traffic together with the shell exit codes, per-turn file changes and MCP calls, then serves the recorded responses back with the network off so a whole agent session reruns deterministically.
 
 ## Performance Testing with AI
